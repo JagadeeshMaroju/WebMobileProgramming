@@ -1,0 +1,44 @@
+/* first-flex-container is used to style 1st row of the grid */
+.first-flex-container {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    line-height:30px;
+    justify-content: center;
+    margin-top: 15%;
+}
+/* flex-container is used to style 2nd and 3rd row of the grid */
+.flex-container {
+    display: flex;
+    width: 100%;
+    line-height:30px;
+    justify-content: center;
+}
+
+/* flex-item is used to style all the span elements in the grid*/
+.flex-item {
+    margin: 5px;
+    height:70px;
+    width:70px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
