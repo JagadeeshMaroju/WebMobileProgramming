@@ -1,0 +1,22 @@
+/*Css for background*/
+.mainBody{
+    background: url(../Images/Background.jpeg);
+    background-size : cover
+}
+
+/*Css for page heading */
+h2{
+    color: white;
+    font-family: candra;
+    font-size: 30px;
+    padding-top:50px
+}
+
+/* Css for Images */
+.img{
+    top: 30%;
+    left: 25%;
+    position: absolute;
+    width="250px";
+    height="250px";
+}
