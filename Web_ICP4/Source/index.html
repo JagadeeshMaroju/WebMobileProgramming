@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web ICP4 Task 1</title>
+    <!-- Adding  jquery to html file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Adding  CSS file to html file-->
+    <link href="stylesheet.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="image">
+    Hover over an image below to display here.
+</div>
+<!-- Below code is for displaying images on the page-->
+<img alt="Batter is ready" class="preview"
+     onmouseout="unDo()"
+     onmouseover="upDate(this)"
+     src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-7.jpg">
+
+<img alt="Perfect Baking" class="preview"
+     onmouseout="unDo()"
+     onmouseover="upDate(this)"
+     src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-6.jpg">
+
+<img alt="Yummy yummy cup cake" class="preview"
+     onmouseout="unDo()"
+     onmouseover="upDate(this)"
+     src="https://cdn.sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-5.jpg">
+<!-- Adding  js script to html file-->
+<script src="script.js"></script>
+</body>
+</html>
